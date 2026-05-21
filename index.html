@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Você está convidado(a)! 💚</title>
+  <meta name="description" content="Marcelle & Paulo — 21 de junho, Quintal do Leo. Confirme sua presença." />
+
+  <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+  <meta property="og:title" content="Você está convidado(a)! 💚" />
+  <meta property="og:description" content="Marcelle & Paulo — 21 de junho, Quintal do Leo. Confirme sua presença." />
+  <meta property="og:image" content="/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Você está convidado(a)! 💚" />
+  <meta name="twitter:description" content="Marcelle & Paulo — 21 de junho, Quintal do Leo. Confirme sua presença." />
+  <meta name="twitter:image" content="/og-image.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/css/main.css" />
+  <link rel="stylesheet" href="/src/css/convite.css" />
+</head>
+<body>
+  <main>
+
+    <!-- ① HERO -->
+    <section class="hero">
+      <div class="hero__visual">
+        <img class="hero__ornamento" src="/src/assets/images/ornamento-hero.svg" alt="" aria-hidden="true" />
+        <img class="hero__coracao"   src="/src/assets/images/coracao.svg"        alt="" aria-hidden="true" />
+        <img class="hero__casal"     src="/src/assets/images/casal.svg"          alt="Marcelle e Paulo" />
+        <p class="hero__sigla"><span>M</span><span class="hero__sigla--amp">&amp;</span><span>P</span></p>
+      </div>
+    </section>
+
+    <!-- ② MENSAGEM -->
+    <section class="mensagem">
+      <p class="mensagem__intro">Quem diria que aquele encontro na academia nos traria até aqui?</p>
+      <p class="mensagem__corpo">Vocês fazem parte da nossa história e é com muito amor que convidamos vocês para celebrar esse momento tão especial das nossas vidas e compartilhar conosco um almoço de comemoração pelo nosso casamento.</p>
+    </section>
+
+    <!-- ③ CALENDÁRIO -->
+    <section class="calendario">
+      <h2 class="calendario__mes">Junho</h2>
+      <div class="calendario__semana">
+        <div class="calendario__col calendario__col--destaque">
+          <span class="cal-diasem">dom</span>
+          <div class="cal-num-wrap">
+            <span class="cal-num">21</span>
+            <svg class="coracaodata" viewBox="0 0 53 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="coracaodata__path"
+                d="M26.5 55
+                   C26.5 55 3 38 3 20
+                   C3 8 12 3 19.5 5.5
+                   C22.5 6.5 25 9.5 26.5 12
+                   C28 9.5 30.5 6.5 33.5 5.5
+                   C41 3 50 8 50 20
+                   C50 38 26.5 55 26.5 55 Z"
+                fill="none" stroke="#CC4646" stroke-width="1.2"
+                stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ④ POLAROIDS + ECLIPSE -->
+    <div class="polaroids-wrapper">
+      <section class="polaroids">
+        <div class="polaroid polaroid--esq">
+          <img src="/src/assets/images/imagemesquerda.png" alt="Quintal do Leo" />
+        </div>
+        <div class="polaroid polaroid--dir">
+          <img src="/src/assets/images/imagemdireita.png" alt="Quintal do Leo" />
+        </div>
+      </section>
+      <div class="eclipse">
+        <img class="local__logo" src="/src/assets/images/logo-quintal.avif" alt="Quintal do Leo" />
+        <p class="local__casal">Marcelle &amp; Paulo<br>21 de junho às 13h</p>
+        <p class="local__desc">Será um dia divertido, feliz e cheio<br>de pessoas importantes para nós.</p>
+
+        <div class="local__btns">
+          <a class="local__btn local__btn--maps" id="btn-maps" href="#" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="white"/>
+            </svg>
+            Google Maps
+          </a>
+          <a class="local__btn local__btn--waze" id="btn-waze" href="#" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M20.54 7.27C19.7 3.7 16.6 1 12.91 1h-.05C8.27 1 4.5 4.77 4.5 9.41c0 1.94.68 3.58 1.46 5.04l.06.11c.23.42.38.87.38 1.44 0 1-.82 1.82-1.82 1.82H4.5c0 2.21 1.79 4 4 4h.09c.33-1.17 1.39-2 2.66-2s2.33.83 2.66 2H14c1.93 0 3.5-1.57 3.5-3.5v-.23c1.9-.8 3.5-3.01 3.5-5.27 0-.58-.16-2.27-.46-3.55zM9.25 18c0-.69.56-1.25 1.25-1.25s1.25.56 1.25 1.25-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25zm4.5 0c0-.69.56-1.25 1.25-1.25s1.25.56 1.25 1.25-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25zM9 11.5c-.83 0-1.5-.67-1.5-1.5S8.17 8.5 9 8.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm6 0c-.83 0-1.5-.67-1.5-1.5S14.17 8.5 15 8.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" fill="white"/>
+            </svg>
+            Waze
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ⑤ CTA FINAL -->
+    <section class="cta">
+      <img class="cta__mesa" src="/src/assets/images/mesa.svg" alt="" aria-hidden="true" />
+      <div class="cta__content">
+        <h2 class="cta__titulo">NOS VEMOS LÁ!</h2>
+        <p class="cta__sub">Pedimos, por gentileza, a confirmação<br>de presença até o dia 05/06.</p>
+        <a class="cta__btn" href="/confirmacao.html">confirme sua presença</a>
+      </div>
+    </section>
+
+  </main>
+  <script type="module" src="/src/js/maps.js"></script>
+  <script type="module" src="/src/js/countdown.js"></script>
+  <script type="module" src="/src/js/animations.js"></script>
+</body>
+</html>

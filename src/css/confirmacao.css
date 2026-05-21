@@ -1,0 +1,197 @@
+/* confirmacao.css */
+
+[hidden] { display: none !important; }
+
+body {
+  max-width: 100%;
+  background-color: #fff;
+  padding-top: 0;
+}
+
+main {
+  background-color: #fff;
+  height: 100svh;
+  max-width: 480px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+
+/* ── TOPO DECORATIVO ── */
+.rsvp-topo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2480 / 1400;
+  overflow: hidden;
+}
+
+.rsvp-topo__ornamento {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.rsvp-topo__sigla {
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-title);
+  font-style: italic;
+  font-size: 3rem;
+  color: var(--color-green);
+  white-space: nowrap;
+}
+
+.rsvp-topo__amp {
+  font-size: 0.85rem;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+/* ── SEÇÃO DO FORM ── */
+.rsvp-section {
+  flex: 1;
+  padding: 4px 36px 24px;
+  padding-bottom: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.rsvp__titulo {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-green);
+  line-height: 1.2;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.rsvp__sub {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--color-green);
+  opacity: 0.75;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* ── FORM ── */
+.rsvp-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.form-label {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.75rem;
+  color: var(--color-green);
+  opacity: 0.7;
+  letter-spacing: 0.02em;
+}
+
+.form-label__opcional {
+  opacity: 0.55;
+  font-size: 0.7rem;
+}
+
+.form-input {
+  background: none;
+  border: none;
+  border-bottom: 1.5px solid var(--color-green);
+  outline: none;
+  padding: 6px 0;
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--color-green);
+  width: 100%;
+  opacity: 0.8;
+}
+
+.form-input::placeholder {
+  opacity: 0.35;
+  color: var(--color-green);
+}
+
+.form-input:focus {
+  opacity: 1;
+  border-bottom-color: var(--color-green-dark);
+}
+
+/* ── BOTÃO ── */
+.rsvp__btn {
+  margin-top: 12px;
+  padding: 8px 36px;
+  background-color: var(--color-green-dark);
+  color: #fff;
+  font-family: var(--font-title);
+  font-style: italic;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* ── SUCESSO / ERRO ── */
+.rsvp-sucesso {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.rsvp-sucesso__icone {
+  font-size: 2rem;
+}
+
+.rsvp-sucesso__titulo {
+  font-family: var(--font-title);
+  font-size: 1.6rem;
+  font-style: italic;
+  color: var(--color-green);
+}
+
+.rsvp-sucesso__msg {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--color-green);
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+.rsvp-erro {
+  margin-top: 16px;
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.82rem;
+  color: #b94a48;
+}

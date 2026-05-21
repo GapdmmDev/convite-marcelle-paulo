@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_context-mode_context-mode__ctx_batch_execute",
+      "Bash(Rename-Item -Path \"C:\\\\Users\\\\gapdm\\\\OneDrive\\\\Documentos\\\\convite-marcelle&paulo\" -NewName \"convite-marcelle-paulo\")",
+      "PowerShell(Rename-Item -Path \"C:\\\\Users\\\\gapdm\\\\OneDrive\\\\Documentos\\\\convite-marcelle&paulo\" -NewName \"convite-marcelle-paulo\")",
+      "mcp__plugin_figma_figma__get_design_context",
+      "mcp__plugin_figma_figma__get_screenshot",
+      "PowerShell($path = \"C:\\\\Users\\\\gapdm\\\\OneDrive\\\\Documentos\\\\convite-marcelle&paulo\\\\figma-ref.png\"; Invoke-WebRequest -Uri \"https://www.figma.com/api/mcp/asset/22b1e051-ce37-459d-9121-f56ac5448b3f\" -OutFile $path; Write-Output \"Saved to $path\")",
+      "mcp__plugin_figma_figma__get_metadata"
+    ]
+  }
+}

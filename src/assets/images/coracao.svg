@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="251" height="228" viewBox="0 0 251 228">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7c8558;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Preenchimento_de_Cor_1" data-name="Preenchimento de Cor 1" class="cls-1" d="M57,18c26.136-5.546,47.22,12.033,60,28l7,10c7.228,2.139,47.017-50.451,82-24,16.087,12.164,17.675,46.217,11,70-11.64,41.471-39.732,82.121-77,98C60.342,233.941-20.3,47.95,57,18Z"/>
+</svg>

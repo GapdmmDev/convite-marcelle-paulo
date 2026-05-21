@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confirmar Presença — Marcelle & Paulo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/css/main.css" />
+  <link rel="stylesheet" href="/src/css/confirmacao.css" />
+</head>
+<body>
+  <main>
+
+    <!-- TOPO DECORATIVO -->
+    <div class="rsvp-topo">
+      <img class="rsvp-topo__ornamento" src="/src/assets/images/ornamento-hero.svg" alt="" aria-hidden="true" />
+      <p class="rsvp-topo__sigla"><span>M</span><span class="rsvp-topo__amp">&amp;</span><span>P</span></p>
+    </div>
+
+    <!-- FORMULÁRIO -->
+    <section class="rsvp-section">
+      <h1 class="rsvp__titulo">Confirme sua presença</h1>
+      <p class="rsvp__sub">Preencha os dados abaixo e<br>nos vemos em breve!</p>
+
+      <form class="rsvp-form" id="rsvp-form" novalidate>
+
+        <div class="form-group">
+          <label class="form-label" for="nome">Seu nome</label>
+          <input class="form-input" type="text" id="nome" name="nome" required placeholder="Nome completo" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="acompanhante">
+            Nome do acompanhante
+            <span class="form-label__opcional">(opcional)</span>
+          </label>
+          <input class="form-input" type="text" id="acompanhante" name="acompanhante" placeholder="Nome completo" />
+        </div>
+
+        <button class="rsvp__btn" type="submit">confirmar presença</button>
+
+      </form>
+
+    </section>
+
+    <!-- Sucesso — ocupa o main inteiro -->
+    <div class="rsvp-sucesso" id="rsvp-sucesso" hidden>
+      <p class="rsvp-sucesso__icone">🌿</p>
+      <h2 class="rsvp-sucesso__titulo">Presença confirmada!</h2>
+      <p class="rsvp-sucesso__msg">Obrigado! Mal podemos esperar<br>para celebrar com vocês.</p>
+    </div>
+
+  </main>
+  <script type="module" src="/src/js/rsvp.js"></script>
+</body>
+</html>
