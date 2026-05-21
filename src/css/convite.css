@@ -313,8 +313,6 @@ body {
   width: 100%;
   height: 100%;
   top: -16px;
-  will-change: transform, opacity;
-  backface-visibility: hidden;
 }
 
 .hero__coracao {
@@ -331,8 +329,6 @@ body {
   left: 50%;
   transform: translateX(-50%);
   top: 22%;
-  will-change: transform, opacity;
-  backface-visibility: hidden;
 }
 
 .hero__sigla {
